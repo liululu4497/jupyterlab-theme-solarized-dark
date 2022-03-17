@@ -38,7 +38,7 @@ The theme is originally created by [Jae Hee Lee](http://jaeheelee.info/) [here](
 To install it as a prebuilt extension (requires JupyterLab >= 3.0):
 
 ```bash
-pip install jupyterlab_theme_solarized_dark
+pip install jupyterlab_theme_solarized_lll
 ```
 
 Or install it as a source extension:
@@ -47,7 +47,7 @@ Or install it as a source extension:
 jupyter labextension install jupyterlab-theme-solarized-dark
 ```
 
-Apply theme by checking `Settings -> Jupyterlab Theme -> Jupyterlab Solarized Dark`
+Apply theme by checking `Settings -> Jupyterlab Theme -> Jupyterlab Solarized D`
 
 To enable theme scrollbars, in JupyterLab, either
 
@@ -95,7 +95,7 @@ jupyter lab build --minimize=False
 ### Uninstall
 
 ```bash
-pip uninstall jupyterlab_theme_solarized_dark
+pip uninstall jupyterlab_theme_solarized_lll
 ```
 
 Or
