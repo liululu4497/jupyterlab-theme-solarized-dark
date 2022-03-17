@@ -33,7 +33,7 @@
     "build:webpack": "webpack",
     "clean": "jlpm run clean:lib",
     "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
-    "clean:labextension": "rimraf jupyterlab_theme_solarized_dark/labextension",
+    "clean:labextension": "rimraf jupyterlab_theme_solarized_lll/labextension",
     "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
     "eslint": "eslint . --ext .ts,.tsx --fix",
     "eslint:check": "eslint . --ext .ts,.tsx",
@@ -76,14 +76,14 @@
   "jupyterlab": {
     "extension": true,
     "themePath": "style/index.css",
-    "outputDir": "jupyterlab_theme_solarized_dark/labextension"
+    "outputDir": "jupyterlab_theme_solarized_lll/labextension"
   },
-  "homepage": "https://github.com/AllanChain/jupyterlab-theme-solarized-dark",
+  "homepage": "https://github.com/liululu4497/jupyterlab-theme-solarized-dark",
   "bugs": {
-    "url": "https://github.com/AllanChain/jupyterlab-theme-solarized-dark/issues"
+    "url": "https://github.com/liululu4497/jupyterlab-theme-solarized-dark/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AllanChain/jupyterlab-theme-solarized-dark"
+    "url": "https://github.com/liululu4497/jupyterlab-theme-solarized-dark"
   }
 }
