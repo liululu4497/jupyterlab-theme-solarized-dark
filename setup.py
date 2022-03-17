@@ -1,5 +1,5 @@
 """
-jupyterlab_theme_solarized_dark setup
+jupyterlab_theme_solarized_lll setup
 """
 import json
 import os
@@ -13,7 +13,7 @@ import setuptools
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 # The name of the project
-name="jupyterlab_theme_solarized_dark"
+name="jupyterlab_theme_solarized_lll"
 
 # Get our version
 with open(os.path.join(HERE, 'package.json')) as f:
