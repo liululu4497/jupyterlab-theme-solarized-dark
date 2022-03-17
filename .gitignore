@@ -4,7 +4,7 @@ node_modules/
 *.egg-info/
 .ipynb_checkpoints
 *.tsbuildinfo
-jupyterlab_theme_solarized_dark/labextension
+jupyterlab_theme_solarized_lll/labextension
 
 .vscode/
 debug.log
