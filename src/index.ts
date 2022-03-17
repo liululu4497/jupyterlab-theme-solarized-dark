@@ -15,7 +15,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const style = 'jupyterlab-theme-solarized-dark/index.css';
 
     manager.register({
-      name: 'JupyterLab Solarized Dark',
+      name: 'JupyterLab Solarized D',
       isLight: false,
       themeScrollbars: true,
       load: () => manager.loadCSS(style),
